@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT WEEK 2</title>
+</head>
+
+
+
+<!-- basic form structure -->
+
+<form>
+
+    <label for="Name">Name</label>
+    <input type="text" placeholder="abc">
+    <br> <br>
+    <label for="email">Email</label>
+    <input type="email" placeholder="abc@gmail.com">
+    <br><br>
+    <input type="submit" value="Submit">
+    <br>
+    <hr>
+    <hr><br>
+
+</form>
+
+
+<!-- input type -->
+
+
+<form>
+
+    <label for="password">password</label>
+    <input type="password" placeholder="abc******142">
+    <br><br>
+
+    <label for="Age">Age</label>
+    <input type="num" placeholder="01">
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+    <br><br>
+    <hr>
+    <hr>
+    <br>
+
+</form>
+
+<!-- Radio button  -->
+
+<form>
+
+    <p>Select Gender</p>
+    <label for="radio">MALE</label>
+    <input type="radio" value="MALE">
+    <br><br>
+    <label for="radio">FEMALE</label>
+    <input type="radio" value="FEMALE">
+    <br><br>
+    <label for="radio">OTHER</label>
+    <input type="radio" value="OTHER">
+    <br><br>
+    <input type="submit" value="Submit">
+    <br>
+    <hr>
+    <hr>
+    <br>
+
+</form>
+
+<!-- checkboxs -->
+
+<form>
+
+    <p>HOBBIES</p>
+
+    <label for="Select">playing online game</label>
+    <input type="checkbox" aria-selected="undefined">
+    <br><br>
+    <label for="Select">Reading books</label>
+    <input type="checkbox" aria-selected="undefined">
+    <br><br>
+    <label for="Select">wondering outside</label>
+    <input type="checkbox" aria-selected="undefined">
+    <br><br>
+    <input type="submit" value="Submit">
+    <br>
+    <hr>
+    <hr><br>
+
+</form>
+
+<!-- select Dropdown -->
+
+<form>
+
+    <label for="COUNTRY">SELECT A COUNTRY</label>
+    <select> name="COUNTRY" id="COUNTRY">
+        <option value="india">India</option>
+        <option value="UK">UK</option>
+        <option value="Pakistan">Pakistan</option>
+    </select>
+    <br><br>
+    <input type="Submit" value="Submit">
+
+    <br>
+    <hr>
+    <hr><br>
+
+</form>
+
+<!-- required -->
+
+<form>
+
+    <label for="name">Name</label>
+    <input type="text" placeholder="abc" required="Name">
+    <br><br>
+    <label for="email">Email</label>
+    <input type="email" placeholder="abc***@gmail.com" required="email">
+    <br><br>
+    <input type="Submit" value="Submit">
+    <br><br>
+    <hr>
+    <hr>
+</form>
+
+<!-- minimum age 18 -->
+
+
+<form>
+
+    <label for="age">Age</label>
+    <input type="number" placeholder="18" min="18">
+    <br><br>
+    <label for="email">Email</label>
+    <input type="email" placeholder="abc***@gmail.com" required="email">
+    <br><br>
+    <input type="Submit" value="submit">
+
+</form>
+<br>
+<hr>
+<hr><br>
+<!-- Advanced Beginner challenge -->
+
+<form action="Login Page">
+
+    <p>LOGIN PAGE</p>
+
+    <label for="username">Username</label>
+    <input type="username" name="username" id="username" placeholder="abc" required="username">
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" placeholder="abc*******12" required="password">
+    <br><br>
+    <label for="checkbox">Remember Me</label>
+    <input type="checkbox" value="checkbox">
+    <br><br>
+    <input type="submit" value="Submit">
+    <br>
+    <hr>
+    <hr><br>
+
+</form>
+
+
+
+</body>
+
+</html>
